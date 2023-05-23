@@ -2,6 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica';
-    transition: background-color 0.5s, color 0.5s;    
+    font-family: 'Arial';       
+}
+
+#baixar-pdf {
+    font-size: 18px;
+    background-color: rgb(125, 201, 13);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 3px solid rgb(125, 201, 13);
+    border-left: 6px solid rgb(137, 221, 11);
+    transition: all 0.25s ease-in-out;
+}
+#baixar-pdf:hover {
+    color: rgb(125, 201, 13);
+    background-color: white;
 }
