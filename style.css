@@ -20,3 +20,9 @@
     color: rgb(125, 201, 13);
     background-color: white;
 }
+
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
